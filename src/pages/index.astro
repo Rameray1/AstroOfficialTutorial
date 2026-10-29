@@ -1,7 +1,7 @@
 ---
-import Navigation from "../components/Navigation.astro";
 import Footer from "../components/Footer.astro";
-import "../styles/global.css"
+import Header from "../components/Header.astro";
+import "../styles/global.css";
 
 const pageTitle = "Rameray's Astro";
 ---
@@ -16,8 +16,8 @@ const pageTitle = "Rameray's Astro";
         <title>{pageTitle}</title>
     </head>
     <body>
-        <Navigation/>
+        <Header />
         <h1>{pageTitle}</h1>
-        <Footer/>
+        <Footer />
     </body>
 </html>
